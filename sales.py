@@ -1,6 +1,6 @@
 import pandas as pd
 import streamlit as st
-import plotly-express as px
+import plotly.express as px
 
 st.set_page_config(page_title="My Sale Dashboard",page_icon=':bar_chart:',layout='wide')
 df = pd.read_csv('all_df.csv')
